@@ -1,0 +1,16 @@
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh; /* 원하는 높이로 변경 */
+}
+
+.align_right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.align_center {
+  display: flex;
+  justify-content: center;
+}
