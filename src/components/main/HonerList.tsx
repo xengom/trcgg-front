@@ -29,8 +29,6 @@ function getHonorList() {
 
 function renderRow(props: ListChildComponentProps) {
   const {index, style} = props
-  console.log(getHonorList())
-  console.log(index)
   return (
     <ListItem style={style} key={index} component="div" disablePadding>
       <ListItemButton>
